@@ -97,8 +97,7 @@ public class Server {
 ```
 
 #### Running `/add-message` on `StringServer`
-
-
+![Image](https://github-production-user-asset-6210df.s3.amazonaws.com/84103589/277199191-fc915ff2-cf1c-40ba-b61e-29a75108ab45.png)
 1. The Method(s) called was `handleRequest`.
 2. The Relevant Argument for `handleRequest` was the `URI url` which in this case was represented by `/add-message?s=<string>`, and the Relevant Fields were `messages`, a list storing the strings and `sequence`, an integer tracking the number of the input string for each iteration.
 3. `messages` list will gain new strings with every iteration; for example if at present `messages` was empty (`[]`), running `handleRequest` multiple times will result in (as seen in the screenshot), `["1. apple", "2. apple", "3. 10"]`, where the leading number/dot are represented by `sequence`, which increments by 1 per message added. So, overall to achieve this list, this is how it is updated:
