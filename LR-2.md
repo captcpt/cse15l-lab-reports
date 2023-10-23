@@ -105,7 +105,7 @@ public class Server {
     - `/add-message?s=apple` --> `messages` equals `["1. apple", "2. apple"]`, `sequence++` so `sequence` now equals 3;
     - `/add-message?s=10` --> `messages` equals `["1. apple", "2. apple", 3. "10"]`, `sequence++` so `sequence` now equals 4
 
-
+![Image](https://github.com/captcpt/cse15l-lab-reports/assets/84103589/2d307cfa-5523-4257-9cf2-09359829c446)
 
 1. The Method(s) called was `handleRequest`.
 2. The Relevant Argument for `handleRequest` was the `URI url` which in this case was represented by `/add-message?s=<string>`, and the Relevant Fields were `messages`, a list storing the strings and `sequence`, an integer tracking the number of the input string for each iteration.
