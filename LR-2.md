@@ -105,7 +105,7 @@ public class Server {
     - `/add-message?s=apple` --> `messages` equals `["1. apple", "2. apple"]`, `sequence++` so `sequence` now equals 3;
     - `/add-message?s=10` --> `messages` equals `["1. apple", "2. apple", 3. "10"]`, `sequence++` so `sequence` now equals 4
 
-![Image](https://github.com/captcpt/cse15l-lab-reports/assets/84103589/2d307cfa-5523-4257-9cf2-09359829c446)
+![Image](https://github-production-user-asset-6210df.s3.amazonaws.com/84103589/277199262-2d307cfa-5523-4257-9cf2-09359829c446.png)
 
 1. The Method(s) called was `handleRequest`.
 2. The Relevant Argument for `handleRequest` was the `URI url` which in this case was represented by `/add-message?s=<string>`, and the Relevant Fields were `messages`, a list storing the strings and `sequence`, an integer tracking the number of the input string for each iteration.
@@ -125,7 +125,7 @@ public class Server {
 - Public: `"C:\Users\chask\.ssh\id_rsa.pub"`
 - Private: `"C:\Users\chask\.ssh\id_rsa"`
 #### Logging into ieng6 w/ SSH key
-
+![Image](https://github-production-user-asset-6210df.s3.amazonaws.com/84103589/277200328-f33cd2db-c4e1-42dc-aebe-feac315432f2.png)
 
 ## Part III
 I already have pretty good experience/exposure to SSH keys, command line, and VSCode (from other courses/work/personal projects), but I didn't really have as much experience with writing web servers with Java. Thus, I found from Weeks 2 and 3, writing and working with the `NumberServer.java` and creating the string and search servers was something new and interesting to utilize. I'm curious to see how I could possibly use this tool/implementation for other/more advanced purposes in the future.
