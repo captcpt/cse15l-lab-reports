@@ -126,7 +126,7 @@ public class Server {
 <img width="189" alt="image" src="https://github.com/captcpt/cse15l-lab-reports/assets/84103589/f403e1f0-090e-4835-8f7f-e8f18331d138">
 <img width="215" alt="image" src="https://github.com/captcpt/cse15l-lab-reports/assets/84103589/be73aa77-7fc9-46cb-b5fd-6e3f9ac54849">
 
-- Public (On ieng6): `"~/.ssh/authorized_keys"
+- Public (On ieng6): `"~/.ssh/authorized_keys"`
 <img width="161" alt="image" src="https://github.com/captcpt/cse15l-lab-reports/assets/84103589/26cc8d0a-d69d-4834-aa5a-7a4dd2a441ea">
 
 #### Logging into ieng6 w/ SSH key
